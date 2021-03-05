@@ -1,6 +1,7 @@
 # bachelor2021
 
-Neo4j Set up 
+# Neo4j Set up 
+
 1.Download Neo4j 4.
  - Neo4j Desktop is where you can maintain your databases, change config files, and start/stop/restart database. 
  - Neo4j Browser is where you can query and view the database.
