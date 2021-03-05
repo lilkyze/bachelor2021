@@ -7,7 +7,7 @@
  -  Neo4j Browser is where you can query and view the database.
  -  Neo4j bolt is the port which you can reach your database through API or in our case a   python driver.
 
-2. Download Neo4j python driver
+2. Download Neo4j python driver.
  -  pip install neo4j
 
 3. Configure database so that you can import csv quickly.
@@ -21,6 +21,16 @@
 4. Create Constraints on the Database and upload the database.
   - Run the queries from UploadData.cypher file.
  
-5. Run Cypher queries to explore the data
+5. Run Cypher queries to explore the data.
 
-  
+# Gephi set up 
+1. Download Gephi.
+
+2. Install plugins.
+ - Install Graph Streaming: This plugin will connect the streeam 
+ - Install Image Preview: This plugin will place a .png on a node.
+
+3. Start streaming on Gephi UI.
+
+4. Send graph from Neo4j.
+ - See streamtogephi.cypher
