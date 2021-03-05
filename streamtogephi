@@ -1,3 +1,9 @@
+# Add the image location to your nodes. Image filenames are their twitter handles
+
+MATCH (n)
+SET n.image = "Directory/"+ n.twitter_handle + ".png"
+
+
 # Append this to the end of your match query to send to gephi
 
 WITH path LIMIT 1000
